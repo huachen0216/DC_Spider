@@ -56,6 +56,7 @@ def get_products():
             'shop':item.find('.shop').text(),
             'location':item.find('.location').text(),
         }
+        data.insert(product)
         print(product)
 
 def main():
